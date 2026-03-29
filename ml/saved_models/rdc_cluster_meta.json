@@ -1,0 +1,94 @@
+{
+  "n_clusters": 2,
+  "silhouette_score": 0.45189640884206617,
+  "feature_cols": [
+    "avg_demand_refrigerator",
+    "avg_demand_air_conditioner",
+    "avg_demand_washing_machine",
+    "month_1_demand",
+    "month_2_demand",
+    "month_3_demand",
+    "month_4_demand",
+    "month_5_demand",
+    "month_6_demand",
+    "month_7_demand",
+    "month_8_demand",
+    "month_9_demand",
+    "month_10_demand",
+    "month_11_demand",
+    "month_12_demand",
+    "avg_temperature",
+    "max_temperature",
+    "temp_range",
+    "festival_uplift",
+    "online_share",
+    "color_white_share",
+    "color_silver_share",
+    "color_black_share",
+    "demand_volatility",
+    "total_volume",
+    "avg_daily_demand"
+  ],
+  "cluster_names": [
+    "Moderate climate WM-heavy",
+    "Moderate climate AC-heavy"
+  ],
+  "rdc_assignments": {
+    "RDC-DEL": {
+      "cluster": 1,
+      "cluster_name": "Moderate climate AC-heavy",
+      "avg_daily_demand": 116.26502732240438,
+      "avg_temperature": 27.74948702474351,
+      "festival_uplift": 0.9963593589749822
+    },
+    "RDC-MUM": {
+      "cluster": 1,
+      "cluster_name": "Moderate climate AC-heavy",
+      "avg_daily_demand": 120.2896174863388,
+      "avg_temperature": 28.35102167182663,
+      "festival_uplift": 1.3041613779734373
+    },
+    "RDC-BLR": {
+      "cluster": 0,
+      "cluster_name": "Moderate climate WM-heavy",
+      "avg_daily_demand": 70.04371584699453,
+      "avg_temperature": 23.6899815611555,
+      "festival_uplift": 1.1751132817799483
+    },
+    "RDC-HYD": {
+      "cluster": 0,
+      "cluster_name": "Moderate climate WM-heavy",
+      "avg_daily_demand": 54.17486338797814,
+      "avg_temperature": 27.640842490842488,
+      "festival_uplift": 1.08370590698591
+    },
+    "RDC-KOL": {
+      "cluster": 0,
+      "cluster_name": "Moderate climate WM-heavy",
+      "avg_daily_demand": 41.377049180327866,
+      "avg_temperature": 28.060681114551084,
+      "festival_uplift": 1.1846858493917318
+    },
+    "RDC-CHN": {
+      "cluster": 0,
+      "cluster_name": "Moderate climate WM-heavy",
+      "avg_daily_demand": 61.36065573770492,
+      "avg_temperature": 29.193167701863356,
+      "festival_uplift": 1.0946382574258162
+    },
+    "RDC-PUN": {
+      "cluster": 0,
+      "cluster_name": "Moderate climate WM-heavy",
+      "avg_daily_demand": 32.68032786885246,
+      "avg_temperature": 25.540012330456225,
+      "festival_uplift": 1.2277746565385264
+    },
+    "RDC-NOI": {
+      "cluster": 0,
+      "cluster_name": "Moderate climate WM-heavy",
+      "avg_daily_demand": 48.797814207650276,
+      "avg_temperature": 26.875718654434248,
+      "festival_uplift": 1.0119634174937666
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "feature_cols": [
+    "price",
+    "ma7",
+    "ma14",
+    "ma30",
+    "momentum_7d",
+    "momentum_14d",
+    "volatility_7d",
+    "volatility_14d",
+    "ma7_above_ma30",
+    "price_above_ma14",
+    "price_lag_1",
+    "price_lag_3",
+    "price_lag_7",
+    "price_lag_14",
+    "dayOfWeek",
+    "month",
+    "weekOfYear"
+  ],
+  "commodities": {
+    "copper": {
+      "mae": 0.21556843123716457,
+      "rmse": 0.26901051820510835,
+      "r2": 0.8863603129055089,
+      "mape": 2.5602737974649012,
+      "model_path": "C:\\Users\\Saksham RAJ\\Desktop\\aeronova-project\\ml\\utils\\..\\saved_models\\xgb_price_copper.joblib",
+      "train_samples": 268,
+      "test_samples": 68
+    },
+    "aluminum": {
+      "mae": 0.05885677023494944,
+      "rmse": 0.07142742005832639,
+      "r2": 0.8171444826814308,
+      "mape": 2.269349002553421,
+      "model_path": "C:\\Users\\Saksham RAJ\\Desktop\\aeronova-project\\ml\\utils\\..\\saved_models\\xgb_price_aluminum.joblib",
+      "train_samples": 268,
+      "test_samples": 68
+    },
+    "steel": {
+      "mae": 0.2119615487014546,
+      "rmse": 0.2450712150871529,
+      "r2": -3.1816294241404437,
+      "mape": 14.691433495377645,
+      "model_path": "C:\\Users\\Saksham RAJ\\Desktop\\aeronova-project\\ml\\utils\\..\\saved_models\\xgb_price_steel.joblib",
+      "train_samples": 268,
+      "test_samples": 68
+    },
+    "polyethylene": {
+      "mae": 0.1799512033069835,
+      "rmse": 0.20642111479256606,
+      "r2": -3.0241780546652137,
+      "mape": 9.512561292766213,
+      "model_path": "C:\\Users\\Saksham RAJ\\Desktop\\aeronova-project\\ml\\utils\\..\\saved_models\\xgb_price_polyethylene.joblib",
+      "train_samples": 268,
+      "test_samples": 68
+    },
+    "crude_oil": {
+      "mae": 7.129363768813189,
+      "rmse": 8.912565262891103,
+      "r2": 0.6165339941006813,
+      "mape": 4.117631834121379,
+      "model_path": "C:\\Users\\Saksham RAJ\\Desktop\\aeronova-project\\ml\\utils\\..\\saved_models\\xgb_price_crude_oil.joblib",
+      "train_samples": 268,
+      "test_samples": 68
+    },
+    "semiconductor_index": {
+      "mae": 80.73657558378332,
+      "rmse": 88.19498774004904,
+      "r2": -5.480735428513532,
+      "mape": 38.07398101953001,
+      "model_path": "C:\\Users\\Saksham RAJ\\Desktop\\aeronova-project\\ml\\utils\\..\\saved_models\\xgb_price_semiconductor_index.joblib",
+      "train_samples": 268,
+      "test_samples": 68
+    }
+  }
+}

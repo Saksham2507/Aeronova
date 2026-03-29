@@ -1,0 +1,13 @@
+{
+  "model_type": "TF-IDF + Logistic Regression",
+  "vocab_size": 507,
+  "classes": [
+    "negative",
+    "neutral",
+    "positive"
+  ],
+  "cv_accuracy": 0.6727272727272726,
+  "cv_std": 0.04453617714151235,
+  "train_samples": 44,
+  "test_samples": 11
+}

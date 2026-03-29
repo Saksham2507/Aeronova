@@ -1,0 +1,148 @@
+{
+  "training_time_seconds": 35.261786222457886,
+  "models": {
+    "lstm": {
+      "model_path": "C:\\Users\\Saksham RAJ\\Desktop\\aeronova-project\\ml\\utils\\..\\saved_models\\lstm_demand.keras",
+      "mape": 21.81865744441169,
+      "mae": 0.12549786269664764,
+      "error_std": 61.64486224921736,
+      "train_samples": 264,
+      "test_samples": 66,
+      "epochs_trained": 11
+    },
+    "anomaly": {
+      "model_path": "C:\\Users\\Saksham RAJ\\Desktop\\aeronova-project\\ml\\utils\\..\\saved_models\\anomaly_detector.joblib",
+      "anomalies_found": 14,
+      "anomaly_rate": 0.08284023668639054,
+      "total_samples": 169
+    },
+    "sentiment": {
+      "model_path": "C:\\Users\\Saksham RAJ\\Desktop\\aeronova-project\\ml\\utils\\..\\saved_models\\sentiment_classifier.joblib",
+      "accuracy": 0.6727272727272726,
+      "vocab_size": 507,
+      "classes": [
+        "negative",
+        "neutral",
+        "positive"
+      ]
+    },
+    "price": {
+      "copper": {
+        "mae": 0.21556843123716457,
+        "rmse": 0.26901051820510835,
+        "r2": 0.8863603129055089,
+        "mape": 2.5602737974649012,
+        "model_path": "C:\\Users\\Saksham RAJ\\Desktop\\aeronova-project\\ml\\utils\\..\\saved_models\\xgb_price_copper.joblib",
+        "train_samples": 268,
+        "test_samples": 68
+      },
+      "aluminum": {
+        "mae": 0.05885677023494944,
+        "rmse": 0.07142742005832639,
+        "r2": 0.8171444826814308,
+        "mape": 2.269349002553421,
+        "model_path": "C:\\Users\\Saksham RAJ\\Desktop\\aeronova-project\\ml\\utils\\..\\saved_models\\xgb_price_aluminum.joblib",
+        "train_samples": 268,
+        "test_samples": 68
+      },
+      "steel": {
+        "mae": 0.2119615487014546,
+        "rmse": 0.2450712150871529,
+        "r2": -3.1816294241404437,
+        "mape": 14.691433495377645,
+        "model_path": "C:\\Users\\Saksham RAJ\\Desktop\\aeronova-project\\ml\\utils\\..\\saved_models\\xgb_price_steel.joblib",
+        "train_samples": 268,
+        "test_samples": 68
+      },
+      "polyethylene": {
+        "mae": 0.1799512033069835,
+        "rmse": 0.20642111479256606,
+        "r2": -3.0241780546652137,
+        "mape": 9.512561292766213,
+        "model_path": "C:\\Users\\Saksham RAJ\\Desktop\\aeronova-project\\ml\\utils\\..\\saved_models\\xgb_price_polyethylene.joblib",
+        "train_samples": 268,
+        "test_samples": 68
+      },
+      "crude_oil": {
+        "mae": 7.129363768813189,
+        "rmse": 8.912565262891103,
+        "r2": 0.6165339941006813,
+        "mape": 4.117631834121379,
+        "model_path": "C:\\Users\\Saksham RAJ\\Desktop\\aeronova-project\\ml\\utils\\..\\saved_models\\xgb_price_crude_oil.joblib",
+        "train_samples": 268,
+        "test_samples": 68
+      },
+      "semiconductor_index": {
+        "mae": 80.73657558378332,
+        "rmse": 88.19498774004904,
+        "r2": -5.480735428513532,
+        "mape": 38.07398101953001,
+        "model_path": "C:\\Users\\Saksham RAJ\\Desktop\\aeronova-project\\ml\\utils\\..\\saved_models\\xgb_price_semiconductor_index.joblib",
+        "train_samples": 268,
+        "test_samples": 68
+      }
+    },
+    "clustering": {
+      "n_clusters": 2,
+      "silhouette_score": 0.45189640884206617,
+      "assignments": {
+        "RDC-DEL": {
+          "cluster": 1,
+          "cluster_name": "Moderate climate AC-heavy",
+          "avg_daily_demand": 116.26502732240438,
+          "avg_temperature": 27.74948702474351,
+          "festival_uplift": 0.9963593589749822
+        },
+        "RDC-MUM": {
+          "cluster": 1,
+          "cluster_name": "Moderate climate AC-heavy",
+          "avg_daily_demand": 120.2896174863388,
+          "avg_temperature": 28.35102167182663,
+          "festival_uplift": 1.3041613779734373
+        },
+        "RDC-BLR": {
+          "cluster": 0,
+          "cluster_name": "Moderate climate WM-heavy",
+          "avg_daily_demand": 70.04371584699453,
+          "avg_temperature": 23.6899815611555,
+          "festival_uplift": 1.1751132817799483
+        },
+        "RDC-HYD": {
+          "cluster": 0,
+          "cluster_name": "Moderate climate WM-heavy",
+          "avg_daily_demand": 54.17486338797814,
+          "avg_temperature": 27.640842490842488,
+          "festival_uplift": 1.08370590698591
+        },
+        "RDC-KOL": {
+          "cluster": 0,
+          "cluster_name": "Moderate climate WM-heavy",
+          "avg_daily_demand": 41.377049180327866,
+          "avg_temperature": 28.060681114551084,
+          "festival_uplift": 1.1846858493917318
+        },
+        "RDC-CHN": {
+          "cluster": 0,
+          "cluster_name": "Moderate climate WM-heavy",
+          "avg_daily_demand": 61.36065573770492,
+          "avg_temperature": 29.193167701863356,
+          "festival_uplift": 1.0946382574258162
+        },
+        "RDC-PUN": {
+          "cluster": 0,
+          "cluster_name": "Moderate climate WM-heavy",
+          "avg_daily_demand": 32.68032786885246,
+          "avg_temperature": 25.540012330456225,
+          "festival_uplift": 1.2277746565385264
+        },
+        "RDC-NOI": {
+          "cluster": 0,
+          "cluster_name": "Moderate climate WM-heavy",
+          "avg_daily_demand": 48.797814207650276,
+          "avg_temperature": 26.875718654434248,
+          "festival_uplift": 1.0119634174937666
+        }
+      }
+    }
+  }
+}
